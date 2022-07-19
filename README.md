@@ -18,13 +18,11 @@ Allows you to configure ads in several locations.
 
 ## Installation
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
-
-    composer require flagrow/ads
+    composer require arthurydalgo/ads
 
 ## Updating
 
-    composer update flagrow/ads
+    composer update arthurydalgo/ads
     php flarum cache:clear
 
 ## Configuration
@@ -35,24 +33,3 @@ Make sure you configure extension on the separate tab;
 
 - Your ads on different locations, leave empty for none.
 - If you use ads between posts, set the spacing.
-
-## Support our work
-
-We prefer to keep our work available to everyone.
-In order to do so we rely on voluntary contributions on [Patreon](https://www.patreon.com/flagrow).
-
-## Security
-
-If you discover a security vulnerability within Ads, please send an email to the Gravure team at security@gravure.io. All security vulnerabilities will be promptly addressed.
-
-Please include as many details as possible. You can use `php flarum info` to get the PHP, Flarum and extension versions installed.
-
-## Links
-
-- [Flarum Discuss post](https://discuss.flarum.org/d/4785-flagrow-ads-bombarding-your-users-with-ads-everywhere-if-you-want)
-- [Source code on GitHub](https://github.com/flagrow/ads)
-- [Changelog](https://github.com/flagrow/ads/blob/master/CHANGELOG.md)
-- [Report an issue](https://github.com/flagrow/ads/issues)
-- [Download via Packagist](https://packagist.org/packages/flagrow/ads)
-
-An extension by [Flagrow](https://flagrow.io/), a project of [Gravure](https://gravure.io/).
