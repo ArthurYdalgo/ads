@@ -1,8 +1,8 @@
 {
-    "name": "flagrow/ads",
+    "name": "arthurydalgo/ads",
     "description": "Bombarding your users with ads.",
     "keywords": [
-        "flarum", "flagrow",
+        "flarum", "arthurydalgo",
         "ads", "advertising"
     ],
     "type": "flarum-extension",
@@ -20,28 +20,25 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/flagrow/ads/issues",
-        "source": "https://github.com/flagrow/ads"
+        "issues": "https://github.com/arthurydalgo/ads/issues",
+        "source": "https://github.com/arthurydalgo/ads"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": "^1."
     },
     "extra": {
         "flarum-extension": {
-            "title": "Flagrow Ads",
+            "title": "ArthurYdalgo Ads",
             "icon": {
                 "name": "fas fa-audio-description",
                 "backgroundColor": "#f4f4f4",
                 "color": "#5f4bb6"
             }
-        },
-        "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/4785"
         }
     },
     "autoload": {
         "psr-4": {
-            "Flagrow\\Ads\\": "src/"
+            "arthurydalgo\\Ads\\": "src/"
         }
     }
 }
